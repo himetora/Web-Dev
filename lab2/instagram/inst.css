@@ -1,0 +1,174 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #fafafa;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.main-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.phone-image img {
+    height: 600px;
+    margin-right: 20px;
+}
+
+.container {
+    text-align: center;
+}
+
+.login-box {
+    background-color: #fff;
+    border: 1px solid #dbdbdb;
+    padding: 20px 40px;
+    margin-bottom: 10px;
+    width: 350px;
+}
+
+.logo {
+    width: 175px;
+    margin-bottom: 20px;
+}
+
+.login-form input {
+    width: 94%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+    font-size: 14px;
+}
+
+.login-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #0095f6;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.login-form button:hover {
+    background-color: #0081e6;
+}
+
+.divider {
+    display: flex;
+    align-items: center;
+    margin: 15px 0;
+}
+
+.divider::before, .divider::after {
+    content: '';
+    flex: 1;
+    border-bottom: 1px solid #dbdbdb;
+}
+
+.divider span {
+    padding: 0 10px;
+    color: #8e8e8e;
+    font-size: 14px;
+}
+
+.fb-login {
+    color: #385185;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    display: block;
+    margin: 10px 0;
+}
+
+.fb-login:hover {
+    text-decoration: underline;
+}
+
+.forgot-password {
+    color: #00376b;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.forgot-password:hover {
+    text-decoration: underline;
+}
+
+.signup-box {
+    background-color: #fff;
+    border: 1px solid #dbdbdb;
+    padding: 20px;
+    width: 390px;
+}
+
+.signup-box p {
+    margin: 0;
+    font-size: 14px;
+}
+
+.signup-box a {
+    color: #0095f6;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.signup-box a:hover {
+    text-decoration: underline;
+}
+
+.get-app {
+    margin-top: 20px;
+}
+
+.get-app p {
+    margin: 10px 0;
+    font-size: 14px;
+}
+
+.app-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.app-buttons img {
+    height: 40px;
+}
+
+footer {
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+    background-color: #fafafa;
+    border-top: 1px solid #dbdbdb;
+}
+
+.footer-links {
+    margin-bottom: 10px;
+}
+
+.footer-links a {
+    color: #8e8e8e;
+    text-decoration: none;
+    font-size: 12px;
+    margin: 0 5px;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+.footer-copyright {
+    color: #8e8e8e;
+    font-size: 12px;
+}
